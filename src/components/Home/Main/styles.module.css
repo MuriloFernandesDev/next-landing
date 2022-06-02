@@ -1,0 +1,29 @@
+.ButtonAcess{
+  flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+ .ButtonAcess a {
+  display: inline-block!important;
+  padding: 10px 20px!important;
+  color: #fff!important;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: #13aff0;
+  background: linear-gradient(105deg,rgb(32,25,66) 30%,rgb(38 225 253) 100%);
+  border-radius: 10px;
+  font-weight: 500!important;
+  letter-spacing: .3px!important;
+  transition: all .5s;
+  text-align: center;
+  width: 150px;
+}
+.ButtonAcess a:hover{
+  filter: opacity(0.8);
+}
