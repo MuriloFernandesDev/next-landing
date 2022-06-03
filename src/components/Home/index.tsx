@@ -3,6 +3,8 @@ import { Icons } from './Icons'
 import { Clients } from './Clients'
 import { Main } from './Main'
 import { Resellers } from './Resellers'
+import { Thousands } from './Thousands'
+import { Testimonials } from './Testimonials'
 
 export function Home() {
     return (
@@ -12,6 +14,8 @@ export function Home() {
             <Icons />
             <Clients />
             <Resellers />
+            <Thousands />
+            <Testimonials />
         </>
     )
 }

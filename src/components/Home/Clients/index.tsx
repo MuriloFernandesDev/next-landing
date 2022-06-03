@@ -6,10 +6,10 @@ export function Clients() {
     return (
         <div className="w-4/5 mx-auto pt-24 pb-10 flex items-start">
             <div className="w-2/3 flex flex-col">
-                <h1 className="uppercase absolute text-8xl font-bold text-slate-300">
+                <h1 className="uppercase relative text-9xl leading-10 font-bold text-slate-300">
                     Clientes
                 </h1>
-                <h2 className="text-indigo-loja relative font-bold text-3xl w-4/5 uppercase mt-12">
+                <h2 className="text-indigo-loja relative font-bold text-3xl w-4/5 uppercase">
                     COMPRE IPHONES COM O MELHOR PREÇO DO MERCADO.
                 </h2>
                 <p className="text-xl font-normal mt-7">
