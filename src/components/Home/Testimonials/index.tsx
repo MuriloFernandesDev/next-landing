@@ -9,7 +9,7 @@ import QuoteImg from '../../../../public/quote.png'
 
 export function Testimonials() {
     return (
-        <div className="w-full bg-indigo-loja">
+        <div className="w-full bg-indigo-loja pb-16">
             <div className="w-4/5 mx-auto">
                 <div className="text-center pt-36 relative pb-36">
                     <h1 className="text-resellers text-[9vw] uppercase font-bold leading-3">
@@ -21,10 +21,10 @@ export function Testimonials() {
                 </div>
             </div>
 
-            <div className="flex flex-col mx-auto w-4/5">
-                <div className="flex justify-between">
-                    <div className="flex flex-col w-2/3">
-                        <div className="flex">
+            <div className="flex flex-col mx-auto w-5/6 gap-28 ">
+                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
+                    <div className="flex flex-col w-full">
+                        <div className="flex justify-center md:justify-start">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -51,15 +51,15 @@ export function Testimonials() {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex flex-col ml-32">
-                            <div className="w-10 h-auto text-white absolute -mt-4 -ml-2">
+                        <div className="flex flex-col pt-4 pb-4 md:pb-0">
+                            <div className="absolute w-10 h-auto text-white">
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
                                     alt="aspas image"
                                 />
                             </div>
-                            <p className="w-4/5 text-white ml-2">
+                            <p className="absolte text-white ml-2 mt-2">
                                 “Comprei dois celulares, um pra mim e um pra
                                 minha irmã, dois iPhones 11. O preço é muito
                                 abaixo. Vale muito a pena!”
@@ -81,9 +81,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between pt-20">
+                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
                     <div className="flex flex-col w-2/3">
-                        <div className="flex">
+                        <div className="flex justify-center md:justify-start">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -140,9 +140,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between pt-20">
+                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
                     <div className="flex flex-col w-2/3">
-                        <div className="flex">
+                        <div className="flex justify-center md:justify-start">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -198,9 +198,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between pt-20">
+                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
                     <div className="flex flex-col w-2/3">
-                        <div className="flex">
+                        <div className="flex justify-center md:justify-start">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -255,9 +255,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between pt-20">
+                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
                     <div className="flex flex-col w-2/3">
-                        <div className="flex">
+                        <div className="flex justify-center md:justify-start">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image

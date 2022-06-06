@@ -4,12 +4,12 @@ import styles from './styles.module.css'
 
 export function Clients() {
     return (
-        <div className="w-4/5 mx-auto pt-24 pb-10 flex items-start">
-            <div className="w-2/3 flex flex-col">
-                <h1 className="uppercase relative text-9xl leading-10 font-bold text-slate-300">
+        <div className="w-4/5 mx-auto pt-24 pb-10 flex flex-col-reverse md:flex-row">
+            <div className="w-full flex flex-col items-center text-center pt-10 md:w-2/3 md:items-start md:text-left md:p-0">
+                <h1 className="uppercase relative text-[9vw] leading-10 font-bold text-slate-300">
                     Clientes
                 </h1>
-                <h2 className="text-indigo-loja relative font-bold text-3xl w-4/5 uppercase">
+                <h2 className="text-indigo-loja relative font-bold text-3xl w-4/5 pt-10 uppercase md:pt-0">
                     COMPRE IPHONES COM O MELHOR PREÇO DO MERCADO.
                 </h2>
                 <p className="text-xl font-normal mt-7">
@@ -24,7 +24,7 @@ export function Clients() {
                     </a>
                 </div>
             </div>
-            <div className="w-80 h-auto">
+            <div className="w-80 h-auto items-center mx-auto md:mx-0">
                 <Image src={BagImg} layout="responsive" alt="Bag" />
             </div>
         </div>

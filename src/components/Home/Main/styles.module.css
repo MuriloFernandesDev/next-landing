@@ -23,7 +23,15 @@
   transition: all .5s;
   text-align: center;
   width: 150px;
+  text-align: center;
 }
 .ButtonAcess a:hover{
   filter: opacity(0.8);
+}
+@media(min-width: 0px) and (max-width: 767px)/*****tablet Portrait******/
+{
+  .ButtonAcess{
+    display: flex;
+    justify-content: center;
+  }
 }

@@ -11,7 +11,7 @@ export function Icons() {
     return (
         <>
             <div className="mx-auto flex items-center flex-col relative mt-10">
-                <div className="absolute w-24 h-auto ml-96 -mt-8">
+                <div className="absolute w-24 h-auto ml-96 -mt-8 hidden md:inline">
                     <Image
                         src={CuboImg}
                         layout="responsive"
@@ -34,7 +34,7 @@ export function Icons() {
                     economia!
                 </p>
             </div>
-            <div className="w-4/5 mx-auto pt-24 flex justify-between">
+            <div className="w-4/5 mx-auto pt-24 flex flex-col justify-between gap-12 md:flex-row">
                 <div className={styles.service_item}>
                     <div className={styles.icon}>
                         <Image src={Section1Img} layout="fixed" alt="icon 1" />

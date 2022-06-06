@@ -6,12 +6,12 @@ import styles from './styles.module.css'
 export function Thousands() {
     return (
         <div className="w-full bg-white pt-20 pb-8">
-            <div className="w-4/5 mx-auto items-center flex">
-                <div className="flex flex-col w-2/3">
-                    <h2 className="relative font-bold leading-10 text-9xl text-slate-300">
+            <div className="w-4/5 mx-auto items-center flex flex-col text-center md:flex-row md:text-left">
+                <div className="flex items-center flex-col w-full md:w-2/3 md:items-start">
+                    <h2 className="font-bold text-[9vw] text-slate-300 md:relative md:leading-10">
                         MILHEIROS
                     </h2>
-                    <h1 className="text-3xl text-indigo-loja font-bold uppercase w-5/6 ml-4 pb-4 relative">
+                    <h1 className="text-3xl text-indigo-loja font-bold uppercase w-5/6 ml-4 pb-4 pt-4 relative md:pt-0">
                         ACELERE SUAS MILHAS E PONTOS DO CARTÃO DE CRÉDITO E
                         AJUDE OUTRAS PESSOAS A TEREM SEU IPHONE TÃO DESEJADO.
                     </h1>
@@ -45,7 +45,7 @@ export function Thousands() {
                         </a>
                     </div>
                 </div>
-                <div className="w-2/5 h-auto">
+                <div className="w-full h-auto inline md:w-2/5">
                     <Image src={AirImg} layout="responsive" alt="cubo png" />
                 </div>
             </div>
