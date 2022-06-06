@@ -15,14 +15,14 @@ export function Main() {
                     />
                 </div>
 
-                <div className="w-full md:w-2/4 flex flex-col items-center md:items-start">
-                    <h1 className="relative font-bold text-slate-200 text-9xl mt-2 md:leading-[120px]">
+                <div className="w-full flex flex-col items-center md:items-start md:w-2/4">
+                    <h1 className="relative font-bold text-slate-200 text-[9vw] mt-2 md:leading-[120px]">
                         MATCH
                     </h1>
-                    <h2 className="relative font-bold text-indigo-loja w-1/2 text-3xl flex text-center md:mt-[-45px]">
+                    <h2 className="relative font-bold text-indigo-loja w-1/2 text-[4vw] flex text-center md:mt-[-45px] md:text-left md:text-[2vw] md:ml-5">
                         MAIS DO QUE PERFEITO!
                     </h2>
-                    <p className="ml-5 text-indigo-loja">
+                    <p className="text-center text-indigo-loja md:text-left md:ml-5">
                         Nós conectamos com um match, quem deseja comprar
                         produtos da marca Apple com quem deseja vender. O
                         comprador economiza até 30% e o associado ganha dinheiro

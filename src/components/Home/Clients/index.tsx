@@ -24,7 +24,7 @@ export function Clients() {
                     </a>
                 </div>
             </div>
-            <div className="w-80 h-auto items-center mx-auto md:mx-0">
+            <div className="w-64 h-auto items-center mx-auto md:mx-0 md:w-80">
                 <Image src={BagImg} layout="responsive" alt="Bag" />
             </div>
         </div>
