@@ -10,3 +10,6 @@
   background-color: #fff;
   border-radius: 10px;
 }
+.content_resellers a:hover{
+  filter: opacity(0.8);
+}

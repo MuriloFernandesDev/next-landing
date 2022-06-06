@@ -10,21 +10,19 @@ import QuoteImg from '../../../../public/quote.png'
 export function Testimonials() {
     return (
         <div className="w-full bg-indigo-loja pb-16">
-            <div className="w-4/5 mx-auto">
-                <div className="text-center pt-36 relative pb-36">
-                    <h1 className="text-resellers text-[9vw] uppercase font-bold leading-3">
-                        Depoimentos
-                    </h1>
-                    <h2 className="text-white text-2xl uppercase font-bold leading-3">
-                        Nossos clientes 100% satisfeitos
-                    </h2>
-                </div>
+            <div className="text-center pt-36 pb-36 flex flex-col gap-5 justify-center md:gap-0 md:block">
+                <h1 className="text-resellers relative text-[9vw] uppercase font-bold leading-none md:leading-10">
+                    Depoimentos
+                </h1>
+                <h2 className="text-white text-2xl relative uppercase font-bold mt-0 md:-mt-5">
+                    Nossos clientes 100% satisfeitos
+                </h2>
             </div>
 
             <div className="flex flex-col mx-auto w-5/6 gap-28 ">
-                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
+                <div className="flex justify-between items-center flex-col gap-4 md:flex-row md:items-start">
                     <div className="flex flex-col w-full">
-                        <div className="flex justify-center md:justify-start">
+                        <div className="flex">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -51,7 +49,7 @@ export function Testimonials() {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex flex-col pt-4 pb-4 md:pb-0">
+                        <div className="flex flex-col pt-6 pb-4 md:pb-0">
                             <div className="absolute w-10 h-auto text-white">
                                 <Image
                                     src={QuoteImg}
@@ -81,9 +79,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
-                    <div className="flex flex-col w-2/3">
-                        <div className="flex justify-center md:justify-start">
+                <div className="flex justify-between items-center flex-col gap-4 md:flex-row md:items-start">
+                    <div className="flex flex-col w-full">
+                        <div className="flex">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -110,15 +108,15 @@ export function Testimonials() {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex flex-col ml-32">
-                            <div className="w-10 h-auto text-white absolute -mt-4 -ml-2">
+                        <div className="flex flex-col pt-6 pb-4 md:pb-0">
+                            <div className="absolute w-10 h-auto text-white">
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
                                     alt="aspas image"
                                 />
                             </div>
-                            <p className="w-4/5 text-white ml-2">
+                            <p className="absolte text-white ml-2 mt-2">
                                 “Celular zero, lacrado na caixa! Pesquisei
                                 bastante em vários lugares e o preço deles é bem
                                 abaixo do mercado.”
@@ -140,9 +138,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
-                    <div className="flex flex-col w-2/3">
-                        <div className="flex justify-center md:justify-start">
+                <div className="flex justify-between items-center flex-col gap-4 md:flex-row md:items-start">
+                    <div className="flex flex-col w-full">
+                        <div className="flex">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -169,15 +167,15 @@ export function Testimonials() {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex flex-col ml-32">
-                            <div className="w-10 h-auto text-white absolute -mt-4 -ml-2">
+                        <div className="flex flex-col pt-6 pb-4 md:pb-0">
+                            <div className="absolute w-10 h-auto text-white">
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
                                     alt="aspas image"
                                 />
                             </div>
-                            <p className="w-4/5 text-white ml-2">
+                            <p className="absolte text-white ml-2 mt-2">
                                 “Um preço muito bom, paguei muito barato no
                                 Iphone original lacrado!”
                             </p>
@@ -198,9 +196,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
-                    <div className="flex flex-col w-2/3">
-                        <div className="flex justify-center md:justify-start">
+                <div className="flex justify-between items-center flex-col gap-4 md:flex-row md:items-start">
+                    <div className="flex flex-col w-full">
+                        <div className="flex">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -225,15 +223,15 @@ export function Testimonials() {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex flex-col ml-32">
-                            <div className="w-10 h-auto text-white absolute -mt-4 -ml-2">
+                        <div className="flex flex-col pt-6 pb-4 md:pb-0">
+                            <div className="absolute w-10 h-auto text-white">
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
                                     alt="aspas image"
                                 />
                             </div>
-                            <p className="w-4/5 text-white ml-2">
+                            <p className="absolte text-white ml-2 mt-2">
                                 “IPhone 12 que adquiri na BuyPhone, perfeito!
                                 Novo, com ótimas condições de preço e
                                 parcelamento.”
@@ -255,9 +253,9 @@ export function Testimonials() {
                     </div>
                 </div>
 
-                <div className="flex justify-between items-center flex-col md:flex-row md:items-start">
-                    <div className="flex flex-col w-2/3">
-                        <div className="flex justify-center md:justify-start">
+                <div className="flex justify-between items-center flex-col gap-4 md:flex-row md:items-start">
+                    <div className="flex flex-col w-full">
+                        <div className="flex">
                             <div className={styles.effect_border}>
                                 <div className="w-[130px] h-auto">
                                     <Image
@@ -282,15 +280,15 @@ export function Testimonials() {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex flex-col ml-32">
-                            <div className="w-10 h-auto text-white absolute -mt-4 -ml-2">
+                        <div className="flex flex-col pt-6 pb-4 md:pb-0">
+                            <div className="absolute w-10 h-auto text-white">
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
                                     alt="aspas image"
                                 />
                             </div>
-                            <p className="w-4/5 text-white ml-2">
+                            <p className="absolte text-white ml-2 mt-2">
                                 “A Amanda adorou o produto que comprou na
                                 BuyPhone”
                             </p>

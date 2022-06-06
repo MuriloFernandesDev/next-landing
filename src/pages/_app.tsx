@@ -7,7 +7,7 @@ import { Footer } from '../components/Footer'
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             <Home />
             <Footer />
             <Component {...pageProps} />

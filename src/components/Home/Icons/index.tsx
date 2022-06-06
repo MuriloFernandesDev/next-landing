@@ -21,9 +21,9 @@ export function Icons() {
                 </div>
 
                 <div className="w-full items-center mt-10">
-                    <h3 className="upercase text-3xl text-center mt-10 font-bold text-indigo-loja">
+                    <h1 className="upercase text-3xl text-center mt-10 font-bold text-indigo-loja">
                         POR QUE ESCOLHER A BUYPHONE?
-                    </h3>
+                    </h1>
                 </div>
                 <div className="w-full h-auto flex items-center justify-center pt-5">
                     <Image src={HeadingImg} layout="fixed" alt="traço png" />
@@ -34,7 +34,7 @@ export function Icons() {
                     economia!
                 </p>
             </div>
-            <div className="w-4/5 mx-auto pt-24 flex flex-col justify-between gap-12 md:flex-row">
+            <div className="w-4/5 mx-auto pt-24 flex flex-col justify-between gap-12 md:flex-row md:gap-0">
                 <div className={styles.service_item}>
                     <div className={styles.icon}>
                         <Image src={Section1Img} layout="fixed" alt="icon 1" />

@@ -37,7 +37,7 @@ export function Thousands() {
                     </ul>
                     <div className="flex mt-4 ml-10">
                         <a
-                            className="inline-block text-center font-bold uppercase p-4 ml-1 text-white bg-indigo-loja rounded-xl"
+                            className="inline-block text-center font-bold uppercase p-4 ml-1 text-white bg-indigo-loja rounded-xl hover:opacity-80"
                             href="https://pedidos.buyphone.com.br/login"
                             target="_blank"
                         >

@@ -1,8 +1,15 @@
-import type { NextPage } from 'next'
+import React from 'react'
+import Head from 'next/head'
 
-const Home: NextPage = () => {
-    return <>
-    </>
+function Home() {
+    return (
+        <>
+            <Head>
+                <title>BuyPhone</title>
+            </Head>
+            <main></main>
+        </>
+    )
 }
 
 export default Home
