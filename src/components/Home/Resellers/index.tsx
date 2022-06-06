@@ -17,14 +17,14 @@ export function Resellers() {
                         />
                     </div>
                 </div>
-                <div className="w-full pl-10">
-                    <div className="w-full flex flex-col text-white relative">
-                        <h1 className="uppercase relative leading-[90px] text-[8vw] font-bold text-resellers pb-10 md:leading-none md:pb-0">
+                <div className="w-full">
+                    <div className="w-full flex flex-col text-white">
+                        <h1 className="uppercase relative leading-[90px] text-[8vw] font-bold text-resellers md:leading-none">
                             reven
                             <br />
                             dendores
                         </h1>
-                        <h2 className="relative -mt-8 font-bold text-2xl ml-2 md:mt-0">
+                        <h2 className="relative font-bold text-2xl ml-2 md:-mt-12">
                             SE CADASTRE NA BUYPHONE E COMPRE IPHONES COM PREÇOS
                             DIFERENCIADOS.
                         </h2>
