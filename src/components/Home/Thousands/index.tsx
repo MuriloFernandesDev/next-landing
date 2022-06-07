@@ -1,11 +1,12 @@
 import AirImg from '../../../../public/img-machine.svg'
-import CuboImg from '../../../../public/img-cubo.svg'
 import Image from 'next/image'
-import styles from './styles.module.css'
 
 export function Thousands() {
     return (
-        <div className="w-full bg-white pt-20 pb-8">
+        <div
+            className="w-full bg-white pt-40 pb-28 min-h-screen"
+            id="Thousands"
+        >
             <div className="w-4/5 mx-auto items-center flex flex-col text-center md:flex-row md:text-left">
                 <div className="flex items-center flex-col w-full md:w-2/3 md:items-start">
                     <h2 className="font-bold text-[9vw] text-slate-300 md:relative md:leading-10">

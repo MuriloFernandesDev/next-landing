@@ -1,13 +1,11 @@
 import ResellersImg from '../../../../public/img-resellers.svg'
-import CuboImg from '../../../../public/cubo-sombra.png'
-import CuboImg2 from '../../../../public/img-cubo.svg'
 import Image from 'next/image'
 import styles from './styles.module.css'
 
 export function Resellers() {
     return (
-        <div className="bg-indigo-loja w-full">
-            <div className="w-5/6 flex items-center flex-col-reverse text-center mx-auto pt-16 pb-16 md:flex-row md:text-left md:pt-28 md:pb-28">
+        <div className="bg-indigo-loja w-full min-h-screen" id="Resellers">
+            <div className="w-5/6 flex items-center justify-center flex-col-reverse text-center mx-auto pt-16 pb-16 md:flex-row md:text-left md:pt-28 md:pb-28">
                 <div className="w-4/5 flex justify-center">
                     <div className="w-4/5 h-auto">
                         <Image

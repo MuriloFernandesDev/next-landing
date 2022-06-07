@@ -4,7 +4,10 @@ import styles from './styles.module.css'
 
 export function Clients() {
     return (
-        <div className="w-4/5 mx-auto pt-24 pb-10 flex flex-col-reverse md:flex-row">
+        <div
+            className="w-4/5 mx-auto min-h-screen items-center flex flex-col-reverse md:flex-row pb-10 pt-10"
+            id="Clients"
+        >
             <div className="w-full flex flex-col items-center text-center pt-10 md:w-2/3 md:items-start md:text-left md:p-0">
                 <h1 className="uppercase relative text-[9vw] leading-10 font-bold text-slate-300">
                     Clientes

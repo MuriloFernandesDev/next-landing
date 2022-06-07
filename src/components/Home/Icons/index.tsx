@@ -10,7 +10,10 @@ import Image from 'next/image'
 export function Icons() {
     return (
         <>
-            <div className="mx-auto flex items-center flex-col relative mt-10">
+            <div
+                className="mx-auto flex items-center flex-col relative pt-10"
+                id="Icons"
+            >
                 <div className="absolute w-24 h-auto ml-96 -mt-8 hidden md:inline">
                     <Image
                         src={CuboImg}
@@ -26,7 +29,12 @@ export function Icons() {
                     </h1>
                 </div>
                 <div className="w-full h-auto flex items-center justify-center pt-5">
-                    <Image src={HeadingImg} layout="fixed" alt="traço png" />
+                    <Image
+                        src={HeadingImg}
+                        layout="fixed"
+                        alt="traço png"
+                        placeholder="blur"
+                    />
                 </div>
                 <p className="text-blue-400 w-1/2 text-center pt-5">
                     Acreditamos que com inovação podemos democratizar o mercado

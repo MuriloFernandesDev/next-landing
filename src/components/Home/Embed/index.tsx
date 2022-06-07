@@ -1,7 +1,10 @@
 import styles from './styles.module.css'
 export function Embed() {
     return (
-        <div className="flex justify-center mx-auto flex-col items-center mt-20 pb-10">
+        <div
+            className="flex justify-center mx-auto flex-col items-center pt-10 md:pb-10"
+            id="Embed"
+        >
             <h1 className="text-center text-3xl text-indigo-loja uppercase font-bold pb-5 md:text-left">
                 Assista ao vídeo e entenda melhor.
             </h1>

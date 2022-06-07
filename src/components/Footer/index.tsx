@@ -9,6 +9,7 @@ export function Footer() {
                     layout="responsive"
                     alt="Logo"
                     className="object-contain"
+                    placeholder="blur"
                 />
             </div>
             <div className="flex justify-center p-2 flex-col items-center md:flex-row">

@@ -9,7 +9,7 @@ import QuoteImg from '../../../../public/quote.png'
 
 export function Testimonials() {
     return (
-        <div className="w-full bg-indigo-loja pb-16">
+        <div className="w-full bg-indigo-loja pb-16" id="Testimonials">
             <div className="text-center pt-36 pb-36 flex flex-col gap-5 justify-center md:gap-0 md:block">
                 <h1 className="text-resellers relative text-[9vw] uppercase font-bold leading-none md:leading-10">
                     Depoimentos
@@ -27,6 +27,7 @@ export function Testimonials() {
                                 <div className="w-[130px] h-auto">
                                     <Image
                                         className="rounded-full"
+                                        placeholder="blur"
                                         src={CLyviaImg}
                                         layout="fill"
                                         alt="Lyvia perfil"
@@ -55,6 +56,7 @@ export function Testimonials() {
                                     src={QuoteImg}
                                     layout="responsive"
                                     alt="aspas image"
+                                    placeholder="blur"
                                 />
                             </div>
                             <p className="absolte text-white ml-2 mt-2">
@@ -68,6 +70,7 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    loading="lazy"
                                     className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/Npmw1UcMnxM"
                                     title="YouTube video player"
@@ -86,6 +89,7 @@ export function Testimonials() {
                                 <div className="w-[130px] h-auto">
                                     <Image
                                         className="rounded-full"
+                                        placeholder="blur"
                                         src={CGabrielImg}
                                         layout="fill"
                                         alt="Gabriel perfil"
@@ -112,6 +116,7 @@ export function Testimonials() {
                             <div className="absolute w-10 h-auto text-white">
                                 <Image
                                     src={QuoteImg}
+                                    placeholder="blur"
                                     layout="responsive"
                                     alt="aspas image"
                                 />
@@ -127,6 +132,7 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    loading="lazy"
                                     className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/w1Sv0QIFxyA"
                                     title="YouTube video player"
@@ -145,6 +151,7 @@ export function Testimonials() {
                                 <div className="w-[130px] h-auto">
                                     <Image
                                         className="rounded-full"
+                                        placeholder="blur"
                                         src={CLuizImg}
                                         layout="fill"
                                         alt="Gabriel perfil"
@@ -172,6 +179,7 @@ export function Testimonials() {
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
+                                    placeholder="blur"
                                     alt="aspas image"
                                 />
                             </div>
@@ -185,6 +193,7 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    loading="lazy"
                                     className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/t3U1o2I9WvI"
                                     title="YouTube video player"
@@ -203,6 +212,7 @@ export function Testimonials() {
                                 <div className="w-[130px] h-auto">
                                     <Image
                                         className="rounded-full"
+                                        placeholder="blur"
                                         src={CIgorImg}
                                         layout="fill"
                                         alt="Gabriel perfil"
@@ -228,6 +238,7 @@ export function Testimonials() {
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
+                                    placeholder="blur"
                                     alt="aspas image"
                                 />
                             </div>
@@ -242,6 +253,7 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    loading="lazy"
                                     className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/vH0EjiMyZaQ"
                                     title="YouTube video player"
@@ -260,6 +272,7 @@ export function Testimonials() {
                                 <div className="w-[130px] h-auto">
                                     <Image
                                         className="rounded-full"
+                                        placeholder="blur"
                                         src={CAmandaImg}
                                         layout="fill"
                                         alt="Gabriel perfil"
@@ -285,6 +298,7 @@ export function Testimonials() {
                                 <Image
                                     src={QuoteImg}
                                     layout="responsive"
+                                    placeholder="blur"
                                     alt="aspas image"
                                 />
                             </div>
@@ -298,6 +312,7 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    loading="lazy"
                                     className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/xzX8LJv7VuQ"
                                     title="YouTube video player"
