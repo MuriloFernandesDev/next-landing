@@ -70,12 +70,13 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    placeholder="blur"
                                     loading="lazy"
-                                    className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/Npmw1UcMnxM"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                         </div>
@@ -132,12 +133,13 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    placeholder="blur"
                                     loading="lazy"
-                                    className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/w1Sv0QIFxyA"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                         </div>
@@ -193,12 +195,13 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    placeholder="blur"
                                     loading="lazy"
-                                    className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/t3U1o2I9WvI"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                         </div>
@@ -253,12 +256,13 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    placeholder="blur"
                                     loading="lazy"
-                                    className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/vH0EjiMyZaQ"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                         </div>
@@ -312,12 +316,13 @@ export function Testimonials() {
                         <div className={styles.embed_depoiments}>
                             <div className={styles.embed_dep}>
                                 <iframe
+                                    placeholder="blur"
                                     loading="lazy"
-                                    className="absolute rounded-xl w-full h-full shadow-md"
                                     src="https://www.youtube.com/embed/xzX8LJv7VuQ"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                         </div>

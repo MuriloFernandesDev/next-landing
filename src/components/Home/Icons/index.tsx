@@ -48,8 +48,8 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section1Img}
-                            quality={100}
                             placeholder="blur"
+                            quality={100}
                             layout="fixed"
                             alt="icon 1"
                         />
@@ -67,8 +67,8 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section2Img}
-                            quality={100}
                             placeholder="blur"
+                            quality={100}
                             layout="fixed"
                             alt="ticon 2"
                         />
@@ -87,8 +87,8 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section3Img}
-                            quality={100}
                             placeholder="blur"
+                            quality={100}
                             layout="fixed"
                             alt="icon 3"
                         />
@@ -107,8 +107,8 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section4Img}
-                            quality={100}
                             placeholder="blur"
+                            quality={100}
                             layout="fixed"
                             alt="icon 4"
                         />
