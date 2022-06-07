@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export function Main() {
     return (
         <div
-            className="mx-auto w-4/5 flex items-center flex-col min-h-screen justify-center pb-10"
+            className="mx-auto w-4/5 flex items-center flex-col min-h-screen justify-center pb-10 pt-10"
             id="Main"
         >
             <div className="flex items-center flex-col md:flex-row">

@@ -30,12 +30,7 @@ export function Icons() {
                     </h1>
                 </div>
                 <div className="w-full h-auto flex items-center justify-center p-10">
-                    <Image
-                        src={HeadingImg}
-                        layout="fixed"
-                        alt="traço png"
-                        placeholder="blur"
-                    />
+                    <Image src={HeadingImg} layout="fixed" alt="traço png" />
                 </div>
                 <p className="text-blue-400 w-1/2 text-center">
                     Acreditamos que com inovação podemos democratizar o mercado
