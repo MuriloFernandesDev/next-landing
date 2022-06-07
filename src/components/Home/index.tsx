@@ -15,7 +15,7 @@ export function Home() {
             <Clients />
             <Resellers />
             <Thousands />
-            {/* <Testimonials /> */}
+            <Testimonials />
         </>
     )
 }
