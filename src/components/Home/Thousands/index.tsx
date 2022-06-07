@@ -50,6 +50,7 @@ export function Thousands() {
                     <Image
                         src={AirImg}
                         layout="responsive"
+                        quality={100}
                         placeholder="blur"
                         alt="cubo png"
                     />

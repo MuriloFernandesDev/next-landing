@@ -29,7 +29,7 @@ export function Icons() {
                         POR QUE ESCOLHER A BUYPHONE?
                     </h1>
                 </div>
-                <div className="w-full h-auto flex items-center justify-center pt-5">
+                <div className="w-full h-auto flex items-center justify-center p-10">
                     <Image
                         src={HeadingImg}
                         layout="fixed"
@@ -37,7 +37,7 @@ export function Icons() {
                         placeholder="blur"
                     />
                 </div>
-                <p className="text-blue-400 w-1/2 text-center pt-5">
+                <p className="text-blue-400 w-1/2 text-center">
                     Acreditamos que com inovação podemos democratizar o mercado
                     de produtos proporcionando aos envolvidos liberdade e
                     economia!
@@ -48,6 +48,7 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section1Img}
+                            quality={100}
                             placeholder="blur"
                             layout="fixed"
                             alt="icon 1"
@@ -66,6 +67,7 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section2Img}
+                            quality={100}
                             placeholder="blur"
                             layout="fixed"
                             alt="ticon 2"
@@ -85,6 +87,7 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section3Img}
+                            quality={100}
                             placeholder="blur"
                             layout="fixed"
                             alt="icon 3"
@@ -104,6 +107,7 @@ export function Icons() {
                     <div className={styles.icon}>
                         <Image
                             src={Section4Img}
+                            quality={100}
                             placeholder="blur"
                             layout="fixed"
                             alt="icon 4"
