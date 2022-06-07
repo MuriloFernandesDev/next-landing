@@ -11,7 +11,7 @@ export function Testimonials() {
     return (
         <div className="w-full bg-indigo-loja pb-16" id="Testimonials">
             <div className="text-center pt-36 pb-36 flex flex-col gap-5 justify-center md:gap-0 md:block">
-                <h1 className="text-resellers relative text-[9vw] uppercase font-bold leading-none md:leading-10">
+                <h1 className="text-white opacity-5 relative text-[9vw] uppercase font-bold leading-none md:leading-10">
                     Depoimentos
                 </h1>
                 <h2 className="text-white text-2xl relative uppercase font-bold mt-0 md:-mt-5">
@@ -42,7 +42,7 @@ export function Testimonials() {
                                     Fisioterapeuta
                                 </h2>
                                 <a
-                                    className="text-blue-600 hover:brightness-150"
+                                    className="text-white opacity-50 hover:brightness-50"
                                     target="_blank"
                                     href="https://www.instagram.com/lyvianagib/"
                                 >
@@ -105,7 +105,7 @@ export function Testimonials() {
                                     Empresário
                                 </h2>
                                 <a
-                                    className="text-blue-600 hover:brightness-150"
+                                    className="text-white opacity-50 hover:brightness-50"
                                     target="_blank"
                                     href="https://www.instagram.com/gabrielpessoamartins/"
                                 >
@@ -168,7 +168,7 @@ export function Testimonials() {
                                     Vendas de sistemas fotovoltaicos
                                 </h2>
                                 <a
-                                    className="text-blue-600 hover:brightness-150"
+                                    className="text-white opacity-50 hover:brightness-50"
                                     target="_blank"
                                     href="https://www.instagram.com/luizpuertas/"
                                 >
@@ -228,7 +228,7 @@ export function Testimonials() {
                                 </h1>
                                 <h2 className="text-white text-lg">Advogado</h2>
                                 <a
-                                    className="text-blue-600 hover:brightness-150"
+                                    className="text-white opacity-50 hover:brightness-50"
                                     target="_blank"
                                     href="https://www.instagram.com/igorfortin/"
                                 >
@@ -289,7 +289,7 @@ export function Testimonials() {
                                 </h1>
                                 <h2 className="text-white text-lg">🧿</h2>
                                 <a
-                                    className="text-blue-600 hover:brightness-150"
+                                    className="text-white opacity-50 hover:brightness-50"
                                     target="_blank"
                                     href="https://www.instagram.com/_amandalprado/"
                                 >

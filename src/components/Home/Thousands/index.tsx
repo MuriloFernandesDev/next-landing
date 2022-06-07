@@ -9,7 +9,7 @@ export function Thousands() {
         >
             <div className="w-4/5 mx-auto items-center flex flex-col text-center md:flex-row md:text-left">
                 <div className="flex items-center flex-col w-full md:w-2/3 md:items-start">
-                    <h2 className="font-bold text-[9vw] text-slate-300 md:relative md:leading-10">
+                    <h2 className="font-bold text-[9vw] text-indigo-loja opacity-10 md:relative md:leading-10">
                         MILHEIROS
                     </h2>
                     <h1 className="text-3xl text-indigo-loja font-bold uppercase w-5/6 ml-4 pb-4 pt-4 relative md:pt-0">

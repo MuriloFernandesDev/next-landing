@@ -17,7 +17,7 @@ export function Resellers() {
                 </div>
                 <div className="w-full">
                     <div className="w-full flex flex-col text-white">
-                        <h1 className="uppercase relative leading-[90px] text-[8vw] font-bold text-resellers md:leading-none">
+                        <h1 className="uppercase relative leading-[90px] text-[8vw] font-bold text-white opacity-5 md:leading-none">
                             reven
                             <br />
                             dendores

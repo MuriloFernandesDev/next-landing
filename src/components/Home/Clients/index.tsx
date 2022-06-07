@@ -9,7 +9,7 @@ export function Clients() {
             id="Clients"
         >
             <div className="w-full flex flex-col items-center text-center pt-10 md:w-2/3 md:items-start md:text-left md:p-0">
-                <h1 className="uppercase relative text-[9vw] leading-10 font-bold text-slate-300">
+                <h1 className="uppercase relative text-[9vw] leading-10 font-bold text-indigo-loja opacity-10">
                     Clientes
                 </h1>
                 <h2 className="text-indigo-loja relative font-bold text-3xl w-4/5 pt-10 uppercase md:pt-0">

@@ -20,7 +20,7 @@ export function Main() {
                 </div>
 
                 <div className="w-full flex flex-col items-center md:items-start md:w-2/4">
-                    <h1 className="relative font-bold text-slate-200 text-[9vw] mt-2 md:leading-[120px]">
+                    <h1 className="relative font-bold text-indigo-loja opacity-5 text-[9vw] mt-2 md:leading-[120px]">
                         MATCH
                     </h1>
                     <h2 className="relative font-bold text-indigo-loja w-1/2 text-[4vw] flex text-center md:mt-[-45px] md:text-left md:text-[2vw] md:ml-5">
