@@ -8,8 +8,9 @@ export function Embed() {
             <h1 className="text-center text-3xl text-indigo-loja uppercase font-bold pb-5 md:text-left">
                 Assista ao vídeo e entenda melhor.
             </h1>
-            <div className={styles.embed}>
+            <div className={styles.embed} placeholder="blur">
                 <iframe
+                    loading="lazy"
                     src="https://www.youtube.com/embed/FrYS9Hj_yEk"
                     title="YouTube video player"
                     frameBorder="0"

@@ -1,4 +1,4 @@
-import Section1Img from '../../../../public/img-section-1.svg'
+import Section1Img from '../../../../public/img-section-1.png'
 import Image from 'next/image'
 import styles from './styles.module.css'
 
@@ -13,6 +13,7 @@ export function Main() {
                     <Image
                         src={Section1Img}
                         layout="responsive"
+                        placeholder="blur"
                         alt="logo"
                         className="object-contain"
                     />

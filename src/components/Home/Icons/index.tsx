@@ -1,10 +1,10 @@
 import styles from './styles.module.css'
-import CuboImg from '../../../../public/img-cubo.svg'
+import CuboImg from '../../../../public/img-cubo.png'
 import HeadingImg from '../../../../public/heading-line-dec.png'
-import Section1Img from '../../../../public/service-icon-01.svg'
-import Section2Img from '../../../../public/service-icon-02.svg'
-import Section3Img from '../../../../public/service-icon-03.svg'
-import Section4Img from '../../../../public/service-icon-04.svg'
+import Section1Img from '../../../../public/service-icon-01.png'
+import Section2Img from '../../../../public/service-icon-02.png'
+import Section3Img from '../../../../public/service-icon-03.png'
+import Section4Img from '../../../../public/service-icon-04.png'
 import Image from 'next/image'
 
 export function Icons() {
@@ -17,6 +17,7 @@ export function Icons() {
                 <div className="absolute w-24 h-auto ml-96 -mt-8 hidden md:inline">
                     <Image
                         src={CuboImg}
+                        placeholder="blur"
                         layout="responsive"
                         alt="cubo png"
                         className="object-contain"
@@ -45,7 +46,12 @@ export function Icons() {
             <div className="w-4/5 mx-auto pt-24 flex flex-col justify-between gap-12 md:flex-row md:gap-0">
                 <div className={styles.service_item}>
                     <div className={styles.icon}>
-                        <Image src={Section1Img} layout="fixed" alt="icon 1" />
+                        <Image
+                            src={Section1Img}
+                            placeholder="blur"
+                            layout="fixed"
+                            alt="icon 1"
+                        />
                     </div>
                     <div className="pt-12">
                         <h1>Segurança</h1>
@@ -58,7 +64,12 @@ export function Icons() {
 
                 <div className={styles.service_item}>
                     <div className={styles.icon}>
-                        <Image src={Section2Img} layout="fixed" alt="ticon 2" />
+                        <Image
+                            src={Section2Img}
+                            placeholder="blur"
+                            layout="fixed"
+                            alt="ticon 2"
+                        />
                     </div>
                     <div className="pt-12">
                         <h1>Melhor preço</h1>
@@ -72,7 +83,12 @@ export function Icons() {
 
                 <div className={styles.service_item}>
                     <div className={styles.icon}>
-                        <Image src={Section3Img} layout="fixed" alt="icon 3" />
+                        <Image
+                            src={Section3Img}
+                            placeholder="blur"
+                            layout="fixed"
+                            alt="icon 3"
+                        />
                     </div>
                     <div className="pt-12">
                         <h1>Facilidade</h1>
@@ -86,7 +102,12 @@ export function Icons() {
 
                 <div className={styles.service_item}>
                     <div className={styles.icon}>
-                        <Image src={Section4Img} layout="fixed" alt="icon 4" />
+                        <Image
+                            src={Section4Img}
+                            placeholder="blur"
+                            layout="fixed"
+                            alt="icon 4"
+                        />
                     </div>
                     <div className="pt-12">
                         <h1>Suporte</h1>

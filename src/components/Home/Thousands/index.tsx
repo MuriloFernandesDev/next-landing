@@ -1,4 +1,4 @@
-import AirImg from '../../../../public/img-machine.svg'
+import AirImg from '../../../../public/img-machine.png'
 import Image from 'next/image'
 
 export function Thousands() {
@@ -47,7 +47,12 @@ export function Thousands() {
                     </div>
                 </div>
                 <div className="w-full h-auto inline md:w-2/5">
-                    <Image src={AirImg} layout="responsive" alt="cubo png" />
+                    <Image
+                        src={AirImg}
+                        layout="responsive"
+                        placeholder="blur"
+                        alt="cubo png"
+                    />
                 </div>
             </div>
         </div>
