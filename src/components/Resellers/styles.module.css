@@ -1,0 +1,15 @@
+.content_resellers a {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 4rem;
+  color: #1d1241;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.content_resellers a:hover{
+  filter: opacity(0.8);
+}
