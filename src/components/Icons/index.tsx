@@ -20,6 +20,7 @@ export function Icons() {
                         placeholder="blur"
                         layout="responsive"
                         alt="cubo png"
+                        quality={100}
                         className="object-contain"
                     />
                 </div>
